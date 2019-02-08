@@ -24,7 +24,6 @@ gulp.task("minify-css", minifyCSS);
 gulp.task("watch", () => {
   gulp.watch("./assets/css/styles.scss", compileSass);
   gulp.watch("./assets/css/*.css", minifyCSS);
-  // gulp.watch("./assets/minified/*.css", minifyCSS);
 });
 
 gulp.task("default", gulp.series("compileSass","minify-css", "watch"));
