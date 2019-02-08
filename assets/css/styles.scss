@@ -7,6 +7,10 @@ $text-color: rgb(42, 46, 51);
     box-shadow: $x, $y, $blur, $c;
   }
 
+  .deleted {
+      text-decoration: line-through;
+  }
+
 html {
   height: 100%;
   background: linear-gradient(80deg, $blue, lightblue, lightyellow) no-repeat;

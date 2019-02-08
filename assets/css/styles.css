@@ -1,3 +1,6 @@
+.deleted {
+  text-decoration: line-through; }
+
 html {
   height: 100%;
   background: linear-gradient(80deg, #297ce9, lightblue, lightyellow) no-repeat;
