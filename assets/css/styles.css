@@ -17,7 +17,6 @@ html {
       display: flex;
       flex-direction: column;
       width: 500px;
-      height: 500px;
       margin: auto;
       border: 2px solid rgba(255, 255, 255, 0.4);
       border-radius: 3px;
