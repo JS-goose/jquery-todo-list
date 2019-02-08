@@ -28,9 +28,12 @@ html {
           font-size: 30px;
           align-self: center;
           padding-left: 63%; }
+      html main #todo-container #todo-list {
+        width: 90%; }
       html main #todo-container .todo-item {
+        padding: 10px 0;
         list-style: none;
-        width: 80%; }
+        width: 100%; }
       html main #todo-container .todo-item:nth-of-type(even) {
         background-color: gray; }
       html main #todo-container .todo-item:nth-of-type(odd) {

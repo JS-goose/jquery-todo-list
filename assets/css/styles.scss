@@ -41,9 +41,14 @@ html {
         }
       }
 
-      .todo-item {
+      #todo-list {
+          width: 90%;
+      }
+    
+    .todo-item {
+        padding: 10px 0;
         list-style: none;
-        width: 80%;
+        width: 100%;
       }
       .todo-item:nth-of-type(even) {
         background-color: gray;
