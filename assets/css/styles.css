@@ -15,7 +15,8 @@ main {
   height: 500px;
   margin: auto;
   box-shadow: 1px 1px 3px #aaa8a8;
-  border: 1px solid rgba(3, 3, 3, 0.4); }
+  border: 1px solid rgba(3, 3, 3, 0.4);
+  border-radius: 3px; }
   #todo-container #todo-title-container {
     display: flex;
     flex-direction: row;
