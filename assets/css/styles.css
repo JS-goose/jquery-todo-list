@@ -52,6 +52,7 @@ html {
       html main #todo-container .todo-item:hover {
         cursor: pointer; }
       html main #todo-container .todo-delete-button {
+        position: absolute;
         padding: 10px;
         font-size: 2em; }
   html #button-container {
