@@ -52,6 +52,20 @@ html {
       .todo-item:nth-of-type(odd) {
         background-color: lightgray;
       }
+    //   to do container
     }
+    // main
   }
+    #button-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+//   html
 }

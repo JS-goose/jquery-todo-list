@@ -35,3 +35,10 @@ html {
         background-color: gray; }
       html main #todo-container .todo-item:nth-of-type(odd) {
         background-color: lightgray; }
+  html #button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; }
+    html #button-container a {
+      text-decoration: none; }
