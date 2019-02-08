@@ -1,3 +1,16 @@
 html {
   height: 100%;
   background: linear-gradient(#297ce9, lightyellow) no-repeat; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px; }
+
+#todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  width: 800px;
+  margin: auto; }
