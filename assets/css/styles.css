@@ -14,3 +14,10 @@ main {
   border: 3px solid black;
   width: 800px;
   margin: auto; }
+  #todo-container #todo-title-container {
+    display: flex;
+    flex-direction: row; }
+    #todo-container #todo-title-container #todo-add-button {
+      font-weight: bold;
+      font-size: 30px;
+      padding-left: 78%; }

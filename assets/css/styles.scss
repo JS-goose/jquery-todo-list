@@ -20,4 +20,14 @@ main {
     width: 800px;
     margin: auto;
 
+    #todo-title-container {
+        display: flex;
+        flex-direction: row;
+
+        #todo-add-button {
+            font-weight: bold;
+            font-size: 30px;
+            padding-left: 78%;
+        }
+    }
 }
