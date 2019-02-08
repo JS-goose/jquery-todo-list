@@ -15,7 +15,7 @@ html {
   main {
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 100px;
 
     #todo-container {
       @include box-shadow(0px, 0px, 10px, rgba(95, 94, 94, 0.4));
