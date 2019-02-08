@@ -16,10 +16,11 @@ main {
 #todo-container {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
   width: 500px;
   height: 500px;
   margin: auto;
+  box-shadow: 1px 1px 3px rgb(170, 168, 168);
+  border: 1px solid rgba(3, 3, 3, 0.4);
 
   #todo-title-container {
     display: flex;

@@ -11,10 +11,11 @@ main {
 #todo-container {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
   width: 500px;
   height: 500px;
-  margin: auto; }
+  margin: auto;
+  box-shadow: 1px 1px 3px #aaa8a8;
+  border: 1px solid rgba(3, 3, 3, 0.4); }
   #todo-container #todo-title-container {
     display: flex;
     flex-direction: row;
