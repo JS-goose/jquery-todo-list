@@ -1,6 +1,7 @@
 html {
   height: 100%;
-  background: linear-gradient(#297ce9, lightyellow) no-repeat; }
+  background: linear-gradient(#297ce9, lightyellow) no-repeat;
+  color: #2a2e33; }
 
 main {
   display: flex;

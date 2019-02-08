@@ -1,9 +1,10 @@
 $blue: rgb(41, 124, 233);
-$text-color: rgb(62, 67, 75);
+$text-color: rgb(42, 46, 51);
 
 html {
   height: 100%;
   background: linear-gradient($blue, lightyellow) no-repeat;
+  color: $text-color;
 }
 
 main {
@@ -15,8 +16,6 @@ main {
 #todo-container {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
   border: 3px solid black;
   width: 500px;
   height: 500px;
