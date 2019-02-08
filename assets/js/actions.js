@@ -1,5 +1,6 @@
 $(".todo-delete-button").on("click", function(event) {
-//   const listItem = $("#todo-list li");
-//   event.target.toggleClass("deleted");
-console.log(event.target)
+    event.stopPropagation();
+    $(this).parent().fadeOut(500, function(){
+        this.remove();
+    });
 });

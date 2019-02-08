@@ -78,7 +78,12 @@ html {
       .todo-item:hover {
           color: $blue;
           cursor: pointer;
-          transform: translateX(20px);
+        //   transform: translateX(20px);
+      }
+
+      .todo-delete-button {
+          padding: 10px;
+          font-size: 2em;
       }
     
 
