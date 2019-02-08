@@ -22,7 +22,11 @@ html {
         padding-bottom: 10px; }
         html main #todo-container #todo-title-container input {
           padding: 10px 0 10px 5px;
-          border: none; }
+          border: none;
+          background: inherit; }
+        html main #todo-container #todo-title-container input:focus {
+          box-shadow: 0px 0px 2px rgba(95, 94, 94, 0.4);
+          border-radius: 3px; }
       html main #todo-container #todo-list {
         margin: 0;
         padding: 0; }
