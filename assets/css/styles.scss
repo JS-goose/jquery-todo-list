@@ -49,6 +49,7 @@ html {
          padding: 0;
      }
 
+
       .todo-item {
         padding: 10px 0;
         list-style: none;
@@ -59,10 +60,9 @@ html {
       .todo-item:hover {
           color: $blue;
           cursor: pointer;
+          transform: translateX(20px);
       }
-      .todo-item:nth-of-type(even) {
-        background-color: rgba(128, 128, 128, 0.1);
-      }
+    
 
       
       //   to do container
