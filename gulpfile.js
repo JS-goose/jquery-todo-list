@@ -1,5 +1,13 @@
 const gulp = require("gulp");
 const cleanCSS = require("gulp-clean-css");
+const sass = require("gulp-sass");
+
+function compileSass() {
+  return gulp
+    .src("./assets/css/styles.css")
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./assets/css'))
+}
 
 function minifyCSS() {
   return gulp
@@ -8,10 +16,10 @@ function minifyCSS() {
     .pipe(gulp.dest("./assets/minified"));
 }
 
-gulp.task("minify-css", minifyCSS);
+gulp.task("compileSass", "minify-css", minifyCSS);
 
 gulp.task("watch", () => {
-  gulp.watch("./css/*.css", minifyCSS);
+  gulp.watch("./assets/minified/*.css", minifyCSS);
 });
 
-gulp.task("default", gulp.series("minify-css","watch"));
+gulp.task("default", gulp.series("compileSass", "minify-css", "watch"));
