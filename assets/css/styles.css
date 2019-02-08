@@ -1,5 +1,6 @@
 .deleted {
-  text-decoration: line-through; }
+  text-decoration: line-through;
+  color: gray; }
 
 html {
   height: 100%;
@@ -49,7 +50,6 @@ html {
         width: 100%;
         padding-left: 5px; }
       html main #todo-container .todo-item:hover {
-        color: #297ce9;
         cursor: pointer; }
       html main #todo-container .todo-delete-button {
         padding: 10px;

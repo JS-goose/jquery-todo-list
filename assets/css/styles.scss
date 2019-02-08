@@ -9,6 +9,7 @@ $text-color: rgb(42, 46, 51);
 
   .deleted {
       text-decoration: line-through;
+      color: gray;
   }
 
 html {
@@ -75,7 +76,7 @@ html {
       }
 
       .todo-item:hover {
-          color: $blue;
+        //   color: $blue;
           cursor: pointer;
         //   transform: translateX(20px);
       }
