@@ -43,9 +43,12 @@ html {
           display: flex;
           flex-direction: column;
           padding-bottom: 10px;
+          margin-top: -26.6px;
+
 
           input {
             padding: 10px 0 10px 5px;
+            margin-top: 0;
             border: none;
             background: inherit;
           }
@@ -58,7 +61,12 @@ html {
           #todo-title {
             font-family: "Lobster", "Ubuntu", sans-serif;
             font-size: 2.5em;
-            padding-left: 2%;
+            font-weight: 400;
+            padding: 1% 0 1% 2%;
+            margin-bottom: 0;
+            background-color: $blue;
+            color: white;
+            text-shadow: 1px 1px 3px gray;
           }
 
           #todo-add-button {
