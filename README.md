@@ -8,4 +8,6 @@ I wanted to build a simple app to solidify some knowledge with Sass and jQuery. 
 * the buttons at the bottom are not working - they were added for visual value only
 
 Here's a screenshot if you'd like to see it:
-![a sample image of the todo app](./assets/preview.PNG)
+
+
+![a preview image of the todo app](./assets/preview.PNG)
