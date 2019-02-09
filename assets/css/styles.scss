@@ -75,6 +75,7 @@ html {
           padding: 10px 0 10px 10px;
           list-style: none;
           width: 100%;
+          text-transform: capitalize;
         }
         .todo-item:nth-of-type(even) {
           background-color: rgba(228, 226, 226, 0.2);
