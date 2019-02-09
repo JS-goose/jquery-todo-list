@@ -10,4 +10,4 @@ I wanted to build a simple app to solidify some knowledge with Sass and jQuery. 
 Here's a screenshot if you'd like to see it:
 
 
-![a preveiw image of the todo app](./assets/preview.png)
+![a preveiw image of the todo app](./assets/preview.PNG)
