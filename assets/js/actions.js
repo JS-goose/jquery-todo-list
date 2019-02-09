@@ -28,7 +28,14 @@ $('input[type="text"]').on("keypress", function(event) {
   }
 });
 
-$('#todo-add-button').click(function(event) {
+$("#todo-add-button").click(function(event) {
   const input = $('input[type="text"]');
-  input.toggleClass('hidden');
-})
+
+  if (input.css("display") === "none") {
+    input.fadeIn();
+    $(this).html("<span>&#10515;</span>");
+  } else {
+    input.fadeOut();
+    $(this).html("<span>&#10514;</span>");
+  }
+});
