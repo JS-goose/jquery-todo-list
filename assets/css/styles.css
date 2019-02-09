@@ -58,7 +58,8 @@ html body {
           color: white;
           text-shadow: 1px 1px 3px gray; }
         html body main #todo-container #todo-title-container #todo-add-button {
-          margin-left: 60%; }
+          margin-left: 60%;
+          cursor: pointer; }
       html body main #todo-container #todo-list {
         margin: 0;
         padding: 0; }
