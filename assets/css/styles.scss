@@ -68,7 +68,12 @@ html {
         padding: 10px 0 10px 10px;
         list-style: none;
         width: 100%;
+
       }
+          .todo-item:nth-of-type(even) {
+            background-color: lightgray;
+            width: 97.8%;
+          }
 
       .todo-item:hover {
         cursor: pointer;

@@ -48,6 +48,9 @@ html {
         padding: 10px 0 10px 10px;
         list-style: none;
         width: 100%; }
+      html main #todo-container .todo-item:nth-of-type(even) {
+        background-color: lightgray;
+        width: 97.8%; }
       html main #todo-container .todo-item:hover {
         cursor: pointer; }
         html main #todo-container .todo-item:hover .todo-delete-button {
