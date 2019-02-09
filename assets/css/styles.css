@@ -102,6 +102,12 @@ html body {
       -moz-box-shadow: 1px 1px 3px #bebbbb;
       -ms-box-shadow: 1px 1px 3px #bebbbb;
       box-shadow: 1px 1px 3px #bebbbb; }
+    html body #button-container .calendar-buttons:hover {
+      transform: scale(1.05);
+      -webkit-box-shadow: 2px 2px 5px #9e9c9c;
+      -moz-box-shadow: 2px 2px 5px #9e9c9c;
+      -ms-box-shadow: 2px 2px 5px #9e9c9c;
+      box-shadow: 2px 2px 5px #9e9c9c; }
     html body #button-container a {
       text-decoration: none;
       color: inherit; }

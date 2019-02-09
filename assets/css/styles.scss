@@ -51,7 +51,6 @@ html {
           padding-bottom: 10px;
           margin-top: -26.6px;
 
-
           input {
             padding: 10px 0 10px 5px;
             margin-top: 0;
@@ -118,10 +117,7 @@ html {
           height: 0;
           opacity: 0;
         }
-
-        //   to do container
       }
-      // main
     }
     #button-container {
       display: flex;
@@ -137,13 +133,15 @@ html {
         border: 1px solid rgba(128, 128, 128, 0.5);
         @include box-shadow(1px, 1px, 3px, rgb(190, 187, 187));
       }
+      .calendar-buttons:hover {
+        transform: scale(1.05);
+        @include box-shadow(2px, 2px, 5px, rgb(158, 156, 156));
+      }
 
       a {
         text-decoration: none;
         color: inherit;
       }
     }
-    // body
   }
-  //   html
 }
