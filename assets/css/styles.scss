@@ -1,10 +1,10 @@
 $blue: rgb(41, 124, 233);
 $text-color: rgb(42, 46, 51);
 @mixin box-shadow($x, $y, $blur, $c) {
-  -webkit-box-shadow: $x, $y, $blur, $c;
-  -moz-box-shadow: $x, $y, $blur, $c;
-  -ms-box-shadow: $x, $y, $blur, $c;
-  box-shadow: $x, $y, $blur, $c;
+  -webkit-box-shadow: $x $y $blur $c;
+  -moz-box-shadow: $x $y $blur $c;
+  -ms-box-shadow: $x $y $blur $c;
+  box-shadow: $x $y $blur $c;
 }
 
 .deleted {
@@ -118,10 +118,15 @@ html {
       .calendar-buttons {
         margin-right: 10px;
         cursor: pointer;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid rgba(128, 128, 128,0.5);
+        @include box-shadow(1px, 1px, 3px, rgb(190, 187, 187));
       }
 
       a {
         text-decoration: none;
+        color: inherit;
       }
     }
     // body
