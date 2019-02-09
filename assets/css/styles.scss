@@ -12,6 +12,10 @@ $text-color: rgb(42, 46, 51);
   color: gray;
 }
 
+.hidden {
+  display: none;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

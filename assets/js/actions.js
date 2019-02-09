@@ -27,3 +27,8 @@ $('input[type="text"]').on("keypress", function(event) {
     $(this).val("");
   }
 });
+
+$('#todo-add-button').click(function(event) {
+  const input = $('input[type="text"]');
+  input.toggleClass('hidden');
+})
