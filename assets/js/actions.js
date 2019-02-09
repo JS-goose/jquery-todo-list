@@ -1,3 +1,6 @@
+/* .on and .click work very similarly however .on will add event listeners 
+to all CURRENT and FUTURE children .click will add listeners for CURRENT 
+children ONLY */
 $("ul").on("click", "li", function(event) {
   $(this).toggleClass("deleted");
 });
@@ -8,6 +11,7 @@ $("ul").on("click", "span", function(event) {
       .parent()
       .remove();
   });
+  // stops event from propagating (bubbling) up to parents
   event.stopPropagation();
 });
 
