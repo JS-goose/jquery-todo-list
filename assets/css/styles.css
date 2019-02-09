@@ -43,6 +43,7 @@ html body {
           border-radius: 3px; }
         html body main #todo-container #todo-title-container #todo-title {
           font-family: "Lobster", "Ubuntu", sans-serif;
+          font-size: 2.5em;
           padding-left: 2%; }
         html body main #todo-container #todo-title-container #todo-add-button {
           margin-left: 60%; }
